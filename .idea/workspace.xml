@@ -2,90 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ef352f-c463-43cc-9845-ffdbbf574ffd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/src/views/FormBuilder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/css/lib/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/css/lib/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/img/glyphicons-halflings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/collections/my-form-snippets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/collections/snippets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/buttons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/buttons.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/input.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/parse.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/radio.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/radio.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/select.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/data/select.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/helper/pubsub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/backbone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/lib/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/main-built.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/models/snippet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/app/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/app/render.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/app/renderform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/app/tab-nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/app/temp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-textarea-split.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/appendedcheckbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/appendedtext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/buttondouble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/buttondropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/filebutton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/formname.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/multiplecheckboxes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/multiplecheckboxesinline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/multipleradios.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/multipleradiosinline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/passwordinput.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/prependedcheckbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/prependedtext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/searchinput.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/selectbasic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/selectmultiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/snippet-templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/templates/snippet/textinput.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/my-form-snippet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/my-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/snippet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/tab-snippet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form-builder/static/js/views/temp-snippet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/TabManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/actions/all-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/mutation-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/mutations/all-mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/state/all-state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/state/constant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/views/VueDraggable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/PrependedTextProperty.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,11 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-draggable/src/main.js">
+      <file leaf-file-name="PrependedText.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderHtml.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#521#1646#0" />
+                <element signature="e#1700#2937#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,17 +52,17 @@
       <file leaf-file-name="FormBuilder.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all-mutations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/mutations/all-mutations.js">
+      <file leaf-file-name="InputFormTab.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="59" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="59" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -129,35 +70,26 @@
       <file leaf-file-name="TextInput.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextInputProperty.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PasswordInput.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextInputProperty.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="64" column="66" lean-forward="true" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-draggable/src/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/all-state.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="782">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,17 +97,8 @@
       <file leaf-file-name="list-form-input.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constant.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/constant.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="328">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -208,6 +131,7 @@
       <find>assets</find>
       <find>right</find>
       <find>control-label</find>
+      <find>newElement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,13 +150,7 @@
         <option value="$PROJECT_DIR$/form-builder/src/router/index.js" />
         <option value="$PROJECT_DIR$/form-builder/src/views/FormBuilder.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/views/VueDraggable.vue" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/css/style.css" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" />
         <option value="$PROJECT_DIR$/form-builder/static/js/app.js" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/TabManage.vue" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/store/mutations-type.js" />
         <option value="$PROJECT_DIR$/vue-draggable/src/store/index.js" />
         <option value="$PROJECT_DIR$/vue-draggable/src/store/mutation-types.js" />
@@ -242,12 +160,19 @@
         <option value="$PROJECT_DIR$/form-builder/static/js/main-built.js" />
         <option value="$PROJECT_DIR$/form-builder/index.html" />
         <option value="$PROJECT_DIR$/form-builder/static/js/main.js" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/main.js" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" />
         <option value="$PROJECT_DIR$/vue-draggable/src/store/state/constant.js" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/TabManage.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/css/style.css" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/PrependedTextProperty.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" />
       </list>
     </option>
   </component>
@@ -274,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,6 +306,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,12 +350,13 @@
       <workItem from="1523523143595" duration="3137000" />
       <workItem from="1523543217480" duration="10275000" />
       <workItem from="1523582673471" duration="1021000" />
-      <workItem from="1523584013425" duration="30509000" />
+      <workItem from="1523584013425" duration="30676000" />
+      <workItem from="1523626163790" duration="9088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44942000" />
+    <option name="totallyTimeSpent" value="54197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,12 +366,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -462,6 +388,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/mutations/all-mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/all-state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="66" lean-forward="true" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/all-state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -484,13 +459,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,9 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/css/lib/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-builder/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -570,24 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/assets/css/lib/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/js/collections/my-form-snippets.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/js/templates/popover/popover-input.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/js/models/snippet.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/js/views/my-form.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder/static/js/views/snippet.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-builder/static/js/views/tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -595,51 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tab_manage.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/VueDraggable.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/TabManage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <element signature="e#446#482#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,28 +617,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form-builder/static/js/lib/text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/form-builder/static/js/lib/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -766,31 +654,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/TabManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/PrependedTextProperty.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="64" column="66" lean-forward="true" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
+        <state relative-caret-position="782">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#521#1646#0" />
+            <element signature="e#1700#2937#0" />
+          </folding>
         </state>
       </provider>
     </entry>

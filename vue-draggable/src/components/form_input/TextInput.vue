@@ -4,7 +4,7 @@
       <label class="col-md-4 control-label" :for="element.data.id">{{ element.data.labelName }}</label>
       <div :class="element.data.size">
         <input :id="element.data.id"
-               name="textinput"
+               :name="element.data.id"
                type="text"
                :placeholder="element.data.placeholder"
                class="form-control input-md"
@@ -17,7 +17,7 @@
     <!-- Form for large width size -->
     <el-dialog title="Text Input" :visible.sync="dialogFormEditVisible">
       <!--<media-edit-form ref="media-edit" :media="this.media"> </media-edit-form>-->
-      <text-input-property :element="element" ref="editTextInput"></text-input-property>
+      <text-input-property :element="element" ref="editTextInputProperty"></text-input-property>
 
       <span slot="footer" class="dialog-footer">
         <el-button @click="closeDialog">Close</el-button>
@@ -43,7 +43,6 @@ export default {
   },
   data () {
     return {
-      newElement: JSON.parse(JSON.stringify(this.element)),
       dialogFormEditVisible: false
     }
   },
@@ -54,11 +53,11 @@ export default {
       }
     },
     closeDialog () {
-      this.$refs['editTextInput'].cancel()
+      this.$refs['editTextInputProperty'].cancel()
       this.dialogFormEditVisible = false
     },
     save () {
-      this.$refs['editTextInput'].save()
+      this.$refs['editTextInputProperty'].save()
       this.dialogFormEditVisible = false
       console.log(this.formList)
     }

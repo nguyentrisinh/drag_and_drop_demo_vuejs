@@ -2,8 +2,8 @@
   <draggable class="list-group" v-model="formInputList" :options="formInputOptions" @start="isDragging=true" @end="isDragging=false">
     <div v-for="(element, index) in formInputList" :key="index">
       <text-input v-if="element.type === 1" :element="element" :isEditable="false" :formList="formList" :index="index"></text-input>
-      <password-input v-if="element.type === 2"></password-input>
-      <prepended-text v-if="element.type === 3"></prepended-text>
+      <password-input v-if="element.type === 2" :element="element" :isEditable="false" :formList="formList" :index="index"></password-input>
+      <prepended-text v-if="element.type === 3" :element="element" :isEditable="false" :formList="formList" :index="index"></prepended-text>
     </div>
   </draggable>
 </template>

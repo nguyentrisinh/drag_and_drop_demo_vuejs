@@ -5,15 +5,6 @@
         <h2>Drag & Drop components</h2>
         <hr/>
         <tab-manage :formList="formList"></tab-manage>
-        <!--<form class="form-horizontal" id="components" role="form">-->
-          <!--<draggable class="dragArea" v-model="formInputList" :options="formInputOptions" @start="isDragging=true" @end="isDragging=false">-->
-              <!--<div v-for="(element, index) in formInputList" :key="index">-->
-                <!--<text-input v-if="element.type === 1"></text-input>-->
-                <!--<password-input v-if="element.type === 2"></password-input>-->
-                <!--<prepended-text v-if="element.type === 3"></prepended-text>-->
-              <!--</div>-->
-          <!--</draggable>-->
-        <!--</form>-->
       </div>
 
       <div class="col-md-6">
@@ -33,8 +24,8 @@
                 <draggable class="dragArea" v-model="formList" :options="formOptions" @end="onEndRemove" @add="onAdd">
                     <div v-for="(element, index) in formList" :key="index" style="margin-top: 10px;">
                       <text-input v-if="element.type === 1" :element="element" :isEditable="true" :formList="formList" :index="index"></text-input>
-                      <password-input v-if="element.type === 2"></password-input>
-                      <prepended-text v-if="element.type === 3"></prepended-text>
+                      <password-input v-if="element.type === 2" :element="element" :isEditable="true" :formList="formList" :index="index"></password-input>
+                      <prepended-text v-if="element.type === 3" :element="element" :isEditable="true" :formList="formList" :index="index"></prepended-text>
                     </div>
                 </draggable>
               </fieldset>

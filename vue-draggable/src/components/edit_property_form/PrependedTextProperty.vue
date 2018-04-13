@@ -5,27 +5,41 @@
       <div class="col-md-10">
         <input class="form-control field" data-type="input" type="text" name="id" v-model="elementBegin.data.id">
       </div>
-    </div><div class="form-group">
-    <label class="col-md-12 "> Label Text </label>
-    <div class="col-md-10">
-      <input class="form-control field" data-type="input" type="text" name="label" v-model="elementBegin.data.labelName">
     </div>
-  </div><div class="form-group">
-    <label class="col-md-12 "> Placeholder </label>
-    <div class="col-md-10">
-      <input class="form-control field" data-type="input" type="text" name="placeholder" v-model="elementBegin.data.placeholder">
+    <div class="form-group">
+      <label class="col-md-12 "> Label Text </label>
+      <div class="col-md-10">
+        <input class="form-control field" data-type="input" type="text" name="label"
+               v-model="elementBegin.data.labelName">
+      </div>
     </div>
-  </div><div class="form-group">
-    <label class="col-md-12 "> Help Text </label>
-    <div class="col-md-10">
-      <input class="form-control field" data-type="input" type="text" name="helptext" v-model="elementBegin.data.helpText">
+    <div class="form-group">
+      <label class="col-md-12 "> Prepend </label>
+      <div class="col-md-10">
+        <input class="form-control field" data-type="input" type="text" name="label"
+               v-model="elementBegin.data.prependText">
+      </div>
     </div>
-  </div><div class="checkbox">
-    <label>
-      <input type="checkbox" data-type="checkbox" class="field" name="required" v-model="elementBegin.data.isRequire">
-      Required
-    </label>
-  </div>
+    <div class="form-group">
+      <label class="col-md-12 "> Placeholder </label>
+      <div class="col-md-10">
+        <input class="form-control field" data-type="input" type="text" name="placeholder"
+               v-model="elementBegin.data.placeholder">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-12 "> Help Text </label>
+      <div class="col-md-10">
+        <input class="form-control field" data-type="input" type="text" name="helptext"
+               v-model="elementBegin.data.helpText">
+      </div>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" data-type="checkbox" class="field" name="required" v-model="elementBegin.data.isRequire">
+        Required
+      </label>
+    </div>
     <div class="form-group">
       <label class="col-md-4 "> Input Size </label>
       <div class="col-md-5">
@@ -42,7 +56,7 @@
 <script>
 import { mapState } from 'vuex'
 export default {
-  name: 'TextInputProperty',
+  name: 'PrependedTextProperty',
   props: [
     'element'
   ],
@@ -64,6 +78,7 @@ export default {
     save () {
       this.elementProperty.data.id = this.elementBegin.data.id
       this.elementProperty.data.labelName = this.elementBegin.data.labelName
+      this.elementProperty.data.prependText = this.elementBegin.data.prependText
       this.elementProperty.data.placeholder = this.elementBegin.data.placeholder
       this.elementProperty.data.helpText = this.elementBegin.data.helpText
       this.elementProperty.data.isRequire = this.elementBegin.data.isRequire
