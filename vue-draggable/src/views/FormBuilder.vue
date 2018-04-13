@@ -57,25 +57,10 @@ export default {
   data () {
     return {
       editable: true,
-      isDragging: false,
-      delayedDragging: false,
       formList: []
     }
   },
   computed: {
-    formInputOptions () {
-      return {
-        animation: 0,
-        // group: 'description',
-        group: {
-          name: 'description',
-          pull: 'clone',
-          put: false
-        },
-        disabled: !this.editable,
-        ghostClass: 'ghost'
-      }
-    },
     formOptions () {
       return {
         animation: 0,
@@ -97,12 +82,6 @@ export default {
     })
   },
   methods: {
-    onEndRemove (evt) {
-      console.log(evt)
-      var index = evt.newIndex
-      this.formList.splice(index, 1)
-      this.isDragging = false
-    },
     onAdd (evt) {
       if (evt.from.className === 'list-group') {
         var newIndex = evt.newIndex
@@ -123,15 +102,6 @@ export default {
     }
   },
   watch: {
-    isDragging (newValue) {
-      if (newValue) {
-        this.delayedDragging = true
-        return
-      }
-      this.$nextTick(() => {
-        this.delayedDragging = false
-      })
-    },
     formList (newValue, oldValue) {
       console.log(newValue, oldValue)
     }

@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ef352f-c463-43cc-9845-ffdbbf574ffd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/PrependedTextProperty.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,25 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RenderHtml.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RenderHtml.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            <state relative-caret-position="362">
+              <caret line="105" column="58" lean-forward="true" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="e#521#1646#0" />
                 <element signature="e#1700#2937#0" />
+                <element signature="e#2987#4112#0" />
+                <element signature="e#2972#3589#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormBuilder.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FormBuilder.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="168">
+              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#2993#3585#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,7 +120,6 @@
       <find>clone</find>
       <find>remove</find>
       <find>move</find>
-      <find>delayedDragging</find>
       <find>$nextTick</find>
       <find>evt</find>
       <find>inner</find>
@@ -132,6 +127,10 @@
       <find>right</find>
       <find>control-label</find>
       <find>newElement</find>
+      <find>isDragging</find>
+      <find>delayedDragging</find>
+      <find>formInputOptions</find>
+      <find>formOptions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,12 +166,12 @@
         <option value="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/PrependedTextProperty.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/InputFormTab.vue" />
-        <option value="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/store/state/list-form-input.js" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/TextInput.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PasswordInput.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/form_input/PrependedText.vue" />
         <option value="$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue" />
+        <option value="$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue" />
       </list>
     </option>
   </component>
@@ -351,25 +350,25 @@
       <workItem from="1523543217480" duration="10275000" />
       <workItem from="1523582673471" duration="1021000" />
       <workItem from="1523584013425" duration="30676000" />
-      <workItem from="1523626163790" duration="9088000" />
+      <workItem from="1523626163790" duration="10078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54197000" />
+    <option name="totallyTimeSpent" value="55187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -675,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/edit_property_form/TextInputProperty.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -726,12 +718,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-draggable/src/components/tab_manage/tabs/RenderHtml.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        <state relative-caret-position="362">
+          <caret line="105" column="58" lean-forward="true" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="e#521#1646#0" />
             <element signature="e#1700#2937#0" />
+            <element signature="e#2987#4112#0" />
+            <element signature="e#2972#3589#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-draggable/src/views/FormBuilder.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#2993#3585#0" />
           </folding>
         </state>
       </provider>
