@@ -40,9 +40,9 @@
 <script>
 import draggable from 'vuedraggable'
 import { mapState } from 'vuex'
-import TextInput from '@/components/form_input/TextInput'
-import PasswordInput from '@/components/form_input/PasswordInput'
-import PrependedText from '@/components/form_input/PrependedText'
+import TextInput from '@/components/field_components/form_input/TextInput'
+import PasswordInput from '@/components/field_components/form_input/PasswordInput'
+import PrependedText from '@/components/field_components/form_input/PrependedText'
 import TabManage from '@/components/tab_manage/TabManage'
 
 export default {
@@ -82,6 +82,12 @@ export default {
     })
   },
   methods: {
+    onEndRemove (evt) {
+      console.log(evt)
+      var index = evt.newIndex
+      this.formList.splice(index, 1)
+      this.isDragging = false
+    },
     onAdd (evt) {
       if (evt.from.className === 'list-group') {
         var newIndex = evt.newIndex

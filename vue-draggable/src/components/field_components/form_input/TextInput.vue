@@ -1,26 +1,23 @@
 <template>
-  <div class="component"><!-- Prepended text-->
+  <div class="component" ><!-- Text input-->
     <div class="form-group" @click="openDialog">
       <label class="col-md-4 control-label" :for="element.data.id">{{ element.data.labelName }}</label>
       <div :class="element.data.size">
-        <div class="input-group">
-          <span class="input-group-addon">{{ element.data.prependText }}</span>
-          <input :id="element.data.id"
-                 :name="element.data.id"
-                 class="form-control"
-                 :placeholder="element.data.placeholder"
-                 type="text"
-          >
-          <!--<input name="prependedtext" class="form-control" placeholder="placeholder" type="text">-->
-        </div>
-        <p class="help-block">{{ element.data.helpText }}</p>
+        <input :id="element.data.id"
+               :name="element.data.id"
+               type="text"
+               :placeholder="element.data.placeholder"
+               class="form-control input-md"
+        >
+        <!--<input name="textinput" type="text" placeholder="placeholder" class="form-control input-md">-->
+        <span class="help-block">{{ element.data.helpText }}</span>
       </div>
     </div>
 
     <!-- Form for large width size -->
     <el-dialog title="Text Input" :visible.sync="dialogFormEditVisible">
       <!--<media-edit-form ref="media-edit" :media="this.media"> </media-edit-form>-->
-      <prepended-text-property :element="element" ref="editPrependTextProperty"></prepended-text-property>
+      <text-input-property :element="element" ref="editTextInputProperty"></text-input-property>
 
       <span slot="footer" class="dialog-footer">
         <el-button @click="closeDialog">Close</el-button>
@@ -31,10 +28,10 @@
 </template>
 
 <script>
-import PrependedTextProperty from '../edit_property_form/PrependedTextProperty'
+import TextInputProperty from '../../edit_property_form/input/TextInputProperty'
 
 export default {
-  name: 'PrependedText',
+  name: 'TextInput',
   props: [
     'element',
     'isEditable',
@@ -42,7 +39,7 @@ export default {
     'index'
   ],
   components: {
-    PrependedTextProperty
+    TextInputProperty
   },
   data () {
     return {
@@ -56,11 +53,11 @@ export default {
       }
     },
     closeDialog () {
-      this.$refs['editPrependTextProperty'].cancel()
+      this.$refs['editTextInputProperty'].cancel()
       this.dialogFormEditVisible = false
     },
     save () {
-      this.$refs['editPrependTextProperty'].save()
+      this.$refs['editTextInputProperty'].save()
       this.dialogFormEditVisible = false
       console.log(this.formList)
     }

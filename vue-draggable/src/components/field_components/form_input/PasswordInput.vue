@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import TextInputProperty from '../edit_property_form/TextInputProperty'
+import TextInputProperty from '../../edit_property_form/input/TextInputProperty'
 
 export default {
   name: 'PasswordInput',

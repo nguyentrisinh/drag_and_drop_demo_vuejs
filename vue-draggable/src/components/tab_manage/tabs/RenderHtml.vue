@@ -38,7 +38,6 @@ export default {
       var textInputHelp = '  <span class="help-block">' + textInputObject.data.helpText + '</span>  \n'
       var textInputEnding = '  </div>\n</div>\n'
       var content = textInputHtmlHeader + textInputLabel + textInputColumn + textInputInput + textInputHelp + textInputEnding
-      console.log(textInputHtmlHeader, textInputLabel, textInputColumn, textInputInput, textInputHelp, textInputEnding)
       return content
     },
     renderPasswordInputObject (passwordInputObject) {
@@ -54,7 +53,6 @@ export default {
       var passwordInputHelp = '  <span class="help-block">' + passwordInputObject.data.helpText + '</span>  \n'
       var passwordInputEnding = '  </div>\n</div>\n'
       var content = passwordInputHtmlHeader + passwordInputLabel + passwordInputColumn + passwordInputInput + passwordInputHelp + passwordInputEnding
-      console.log(passwordInputHtmlHeader, passwordInputLabel, passwordInputColumn, passwordInputInput, passwordInputHelp, passwordInputEnding)
       return content
     },
     renderPrependTextObject (prependTextObject) {
@@ -71,11 +69,10 @@ export default {
       var prependTextHelp = '    <span class="help-block">' + prependTextObject.data.helpText + '</span>  \n'
       var prependTextEnding = '  </div>\n</div>\n'
       var content = prependTextHtmlHeader + prependTextLabel + prependTextColumn + prependTextInputGroup + prependTextInput + prependTextHelp + prependTextEnding
-      console.log(prependTextHtmlHeader, prependTextLabel, prependTextColumn, prependTextInputGroup, prependTextInput, prependTextHelp, prependTextEnding)
       return content
     },
     convertIntoString (formList) {
-      console.log(formList, 'RenderHTML')
+      // console.log(formList, 'RenderHTML')
       var content = '<form class="form-horizontal">\n<fieldset>\n\n<!-- Form Name -->\n<legend>Form Name</legend>\n'
 
       for (var index in formList) {
