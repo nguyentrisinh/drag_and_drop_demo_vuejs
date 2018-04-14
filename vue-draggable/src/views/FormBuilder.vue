@@ -26,6 +26,8 @@
                       <text-input v-if="element.type === 1" :element="element" :isEditable="true" :formList="formList" :index="index"></text-input>
                       <password-input v-if="element.type === 2" :element="element" :isEditable="true" :formList="formList" :index="index"></password-input>
                       <prepended-text v-if="element.type === 3" :element="element" :isEditable="true" :formList="formList" :index="index"></prepended-text>
+                      <file-button v-if="element.type === 21" :element="element" :isEditable="true" :formList="formList" :index="index"></file-button>
+                      <single-button v-if="element.type === 22" :element="element" :isEditable="true" :formList="formList" :index="index"></single-button>
                     </div>
                 </draggable>
               </fieldset>
@@ -43,6 +45,8 @@ import { mapState } from 'vuex'
 import TextInput from '@/components/field_components/form_input/TextInput'
 import PasswordInput from '@/components/field_components/form_input/PasswordInput'
 import PrependedText from '@/components/field_components/form_input/PrependedText'
+import FileButton from '@/components/field_components/buttons/FileButton'
+import SingleButton from '@/components/field_components/buttons/SingleButton'
 import TabManage from '@/components/tab_manage/TabManage'
 
 export default {
@@ -51,6 +55,8 @@ export default {
     TextInput,
     PasswordInput,
     PrependedText,
+    FileButton,
+    SingleButton,
     draggable,
     TabManage
   },
@@ -78,7 +84,8 @@ export default {
       return JSON.stringify(this.formList, null, 2)
     },
     ...mapState({
-      formInputList: state => state.formInputList
+      formInputList: state => state.formInputList,
+      buttonList: state => state.buttonList
     })
   },
   methods: {
@@ -89,21 +96,17 @@ export default {
       this.isDragging = false
     },
     onAdd (evt) {
-      if (evt.from.className === 'list-group') {
-        var newIndex = evt.newIndex
-        var oldIndex = evt.oldIndex
-        var oldElement = this.formInputList[oldIndex]
-        var newElement = JSON.parse(JSON.stringify(oldElement))
-        // const payload = {
-        //   type: 'update_form_list',
-        //   data: {
-        //     element: oldElement,
-        //     newIndex: newIndex
-        //   }
-        // }
-        // this.$store.dispatch(payload)
-        this.formList.splice(newIndex, 1, newElement)
-        console.log(oldElement, newIndex, 'list-group')
+      var newIndex = evt.newIndex
+      var oldIndex = evt.oldIndex
+      if (evt.from.className === 'list-group input-form-tab') {
+        var oldInputFormElement = this.formInputList[oldIndex]
+        var newInputFormElement = JSON.parse(JSON.stringify(oldInputFormElement))
+
+        this.formList.splice(newIndex, 1, newInputFormElement)
+      } else if (evt.from.className === 'list-group button-tab') {
+        var oldButtonElement = this.buttonList[oldIndex]
+        var newButtonElement = JSON.parse(JSON.stringify(oldButtonElement))
+        this.formList.splice(newIndex, 1, newButtonElement)
       }
     }
   },

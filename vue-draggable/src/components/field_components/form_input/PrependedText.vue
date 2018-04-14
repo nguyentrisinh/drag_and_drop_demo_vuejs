@@ -18,7 +18,7 @@
     </div>
 
     <!-- Form for large width size -->
-    <el-dialog title="Text Input" :visible.sync="dialogFormEditVisible">
+    <el-dialog title="Prepended Text" :visible.sync="dialogFormEditVisible">
       <!--<media-edit-form ref="media-edit" :media="this.media"> </media-edit-form>-->
       <prepended-text-property :element="element" ref="editPrependTextProperty"></prepended-text-property>
 

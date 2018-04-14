@@ -1,8 +1,10 @@
-import {formInputList, formListState} from './list-form-input'
-import {inputSize} from './constant'
+import { formInputList, buttonList, formListState } from './list-form-input'
+import { inputSize, buttonType } from './constant'
 
 export const state = {
   formInputList,
   formListState,
-  inputSize
+  buttonList,
+  inputSize,
+  buttonType
 }

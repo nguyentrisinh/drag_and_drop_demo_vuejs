@@ -24,3 +24,34 @@ export const inputSize = [
     label: 'XXLarge'
   }
 ]
+
+export const buttonType = [
+  {
+    value: 'btn-default',
+    label: 'Default'
+  },
+  {
+    value: 'btn-primary',
+    label: 'Primary'
+  },
+  {
+    value: 'btn-info',
+    label: 'Info'
+  },
+  {
+    value: 'btn-success',
+    label: 'Success'
+  },
+  {
+    value: 'btn-warning',
+    label: 'Warning'
+  },
+  {
+    value: 'btn-danger',
+    label: 'Danger'
+  },
+  {
+    value: 'btn-inverse',
+    label: 'Inverse'
+  }
+]
