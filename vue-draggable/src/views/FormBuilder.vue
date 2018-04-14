@@ -91,8 +91,13 @@ export default {
   methods: {
     onEndRemove (evt) {
       console.log(evt)
-      var index = evt.newIndex
-      this.formList.splice(index, 1)
+      var newIndex = evt.newIndex
+      var oldIndex = evt.oldIndex
+
+      if (newIndex === oldIndex) {
+        this.formList.splice(newIndex, 1)
+      }
+
       this.isDragging = false
     },
     onAdd (evt) {
