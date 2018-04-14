@@ -54,5 +54,3 @@ export const buttonList = [
     }
   }
 ]
-
-export const formListState = []
